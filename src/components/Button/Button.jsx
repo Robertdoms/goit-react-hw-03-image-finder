@@ -1,5 +1,5 @@
-import PropTypes from 'prop-types';
 import StyledButton from './Button.styled';
+import PropTypes from 'prop-types';
 const Button = ({ loadMore }) => {
   return (
     <StyledButton
