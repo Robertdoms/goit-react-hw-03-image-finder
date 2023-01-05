@@ -2,7 +2,6 @@ import { Component } from 'react';
 import { StyledLi, StyledItemImage } from './ImageGalleryItem.styled';
 import Modal from '../Modal';
 import PropTypes from 'prop-types';
-
 class GalleyItem extends Component {
   state = {
     showModal: false,
