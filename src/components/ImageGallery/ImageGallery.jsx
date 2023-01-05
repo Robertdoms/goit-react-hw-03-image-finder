@@ -41,9 +41,6 @@ class Gallery extends Component {
         this.setState({ loading: false });
       }
     }
-    // if (prevProps.searchQuery !== searchQuery) {
-    //   this.setState({ images: updatedImages, page: 1 });
-    // }
   };
   onLoadMore = () => {
     this.setState({ page: this.state.page + 1 });
@@ -75,5 +72,3 @@ Gallery.propTypes = {
 };
 
 export default Gallery;
-
-// largeImageURL
