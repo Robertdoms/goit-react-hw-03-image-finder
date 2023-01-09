@@ -8,7 +8,8 @@ import { ToastContainer } from 'react-toastify';
 
 class App extends Component {
   state = {
-    searchQuery: '',
+    searchQuery: ' ',
+    isLoading: false,
   };
   handleFormSubmit = searchQuery => {
     this.setState({ searchQuery });
