@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
 
 import Container from './App.styled';
+// import Modal from './Modal';
 import Searchbar from './Searchbar';
 import Gallery from './ImageGallery';
-
+// import LoaderWrapper from './Loader/Loader';
+// import Button from './Button';
 import { ToastContainer } from 'react-toastify';
 
 class App extends Component {
   state = {
-    searchQuery: ' ',
-    isLoading: false,
+    searchQuery: '',
   };
   handleFormSubmit = searchQuery => {
     this.setState({ searchQuery });
