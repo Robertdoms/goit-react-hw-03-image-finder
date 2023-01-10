@@ -1,4 +1,3 @@
-// import { Component } from 'react';
 import { Component } from 'react';
 import GalleryList from './ImageGallery.styled';
 import GalleyItem from '../ImageGalleryItem/ImageGalleryItem';
@@ -41,9 +40,6 @@ class Gallery extends Component {
         this.setState({ loading: false });
       }
     }
-    // if (prevProps.searchQuery !== searchQuery) {
-    //   this.setState({ images: updatedImages, page: 1 });
-    // }
   };
   onLoadMore = () => {
     this.setState({ page: this.state.page + 1 });
@@ -75,5 +71,3 @@ Gallery.propTypes = {
 };
 
 export default Gallery;
-
-// largeImageURL
